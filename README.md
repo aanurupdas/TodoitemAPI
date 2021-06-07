@@ -16,6 +16,8 @@ Todo Items API based on `python3.8` , `Django3.1` , `Django-REST-Framework3.12`
 
 Note: To run this APIs on Local Server, replace `https://tododas.herokuapp.com` with `http://127.0.0.1:8000`. And {id} is Todo Item ID (primary key) of Todo Item Table.
 
+- Database: PostgresSQL is used
+
 ## Installation:
 On Local Server, Install via pip: 
 ```bash
