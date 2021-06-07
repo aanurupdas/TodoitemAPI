@@ -7,9 +7,9 @@ Todo Items API based on `python3.8` , `Django3.1` , `Django-REST-Framework3.12`
 2. User Login API and in response gives JWT Token encoded with first_name,last_name,email,is_active:True/False,Roles:Admin/User. API Endpoint-
 - (POST) - `https://tododas.herokuapp.com/api/login` 
 3. Todo Items List Operation.Both Admin and User Roles are allowed'. API Endpoint-
-- LIST(GET) - `https://dastodo.herokuapp.com/api/getall`
+- LIST(GET) - `https://tododas.herokuapp.com/api/getall`
 4. Todo Items CRUD Operations.Only Admin Roles are allowed. API Endpoints- 
--  CREATE(POST) - `https://dastodo.herokuapp.com/api/create`
+-  CREATE(POST) - `https://tododas.herokuapp.com/api/create`
 - RETRIEVE(GET) - `https://tododas.herokuapp.com/api/get/{id}`
 - UPDATE(PUT)- `https://tododas.herokuapp.com/api/update/{id}`
 - DELETE(DELETE)- `https://tododas.herokuapp.com/api/delete/{id}` 
