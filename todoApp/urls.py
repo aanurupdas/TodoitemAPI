@@ -16,13 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+admin.site.site_header = "Todo Items API"
+admin.site.site_title = "Todo Items API Portal"
+admin.site.index_title = "Welcome Todo Items API Admin"
+
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Todo API",
+        title="Todo Items API",
         default_version="v1",
         description="An api for Daily Todo Items(routines)",
         terms_of_service="https://google.com",
